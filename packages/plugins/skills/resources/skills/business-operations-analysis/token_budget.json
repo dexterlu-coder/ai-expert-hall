@@ -1,0 +1,22 @@
+{
+  "total_budget_tokens": 9191,
+  "budget_ratio_assumed": 0.63,
+  "dynamic": {
+    "enabled": true,
+    "ratio": 0.5
+  },
+  "strategy": "skip_low_priority",
+  "priority": [
+    "SKILL.md",
+    "scripts/scan.py",
+    "references/data-template.md",
+    "references/accounting-rules.md",
+    "references/output-example.md",
+    "references/indicator-library.md",
+    "references/anomaly-rules.md",
+    "token_budget.json",
+    "_skillhub_meta.json",
+    "_meta.json"
+  ],
+  "_auto_generated_by": "skill-token-budget/batch_token_report.py"
+}

@@ -1,0 +1,7 @@
+{
+  "display_name": "企业知识库萃取助手",
+  "display_name_en": "Enterprise Knowledge Extraction Assistant",
+  "description_zh": "把制度、流程、政策、培训、会议、项目、案例等企业原始素材，拆分并萃取为适合智能体、AI应用和企业知识库使用的结构化 Markdown 文档。",
+  "description_en": "Extracts enterprise raw materials (policies, SOPs, training, meetings, projects, cases) into structured Markdown docs for agents, AI apps and knowledge bases.",
+  "icon": "_icon.png"
+}

@@ -1,0 +1,46 @@
+{
+  "company": "示例制造集团",
+  "date": "20260718",
+  "industry": "制造业",
+  "scale": "500-2000 人",
+  "consultant": "L&D 诊断团队",
+  "maturity_level": 2,
+  "top_pain": "培训效果无法评估，说不清 ROI",
+  "executive_summary": "该企业培训以线下面授为主，内容更新慢、评估止步满意度问卷，尚无 LMS。整体成熟度 L2（起步）。核心机会在于以低门槛 AI 工具先打通『内容生产—自动出题—学习行为分析』，用一个季度的 quick win 证明价值，再逐步补齐系统基建与个性化学习能力。",
+  "dimensions": [
+    {"name": "内容", "current_state": "课程多为外采通用课，年更新不足一次，无案例库", "score": 2, "gap": "内容陈旧且与业务脱节"},
+    {"name": "交付", "current_state": "以线下面授为主，一线与异地覆盖不足", "score": 2, "gap": "覆盖窄、成本高"},
+    {"name": "评估", "current_state": "仅有满意度问卷（柯氏1级），无学考用闭环", "score": 1, "gap": "说不清培训效果与 ROI"},
+    {"name": "技术", "current_state": "无 LMS，Excel + 群通知管理，有企业微信", "score": 1, "gap": "无系统、数据不可用"},
+    {"name": "人员", "current_state": "学员含大量一线，手机为主、碎片化，内训师稀缺", "score": 2, "gap": "内训师青黄不接"}
+  ],
+  "opportunities": [
+    {"priority": "P0", "name": "AI 出题与自动阅卷", "target": "评估环节", "benefit": "从0到有考试数据，直击效果评估痛点，备题工时降 70%", "effort": "低", "payback": "即时"},
+    {"priority": "P0", "name": "AI 辅助课件生成", "target": "内容开发", "benefit": "从 SOP 一键成课，备课工时降 60%", "effort": "低", "payback": "即时"},
+    {"priority": "P1", "name": "企微内一线移动微课", "target": "交付环节", "benefit": "一线覆盖率从 40% 升至 85%", "effort": "中", "payback": "1 季度"},
+    {"priority": "P1", "name": "学习行为分析看板", "target": "评估环节", "benefit": "完课与薄弱点可视化，支撑柯氏2级", "effort": "中", "payback": "1 季度"},
+    {"priority": "P2", "name": "个性化学习路径", "target": "人员维度", "benefit": "千人千面，提升自主学习率", "effort": "高", "payback": "2+ 季度"}
+  ],
+  "roadmap": [
+    {"phase": "第一阶段（0-3 月）Quick Win", "focus": "AI 出题 + 课件生成落地，建立效果数据", "deliverables": ["自动题库与在线测验上线", "3 门核心课 AI 重制", "首份学习数据报告"], "milestone": "备课/备题工时下降 60%，首次拿出考试通过率数据"},
+    {"phase": "第二阶段（3-6 月）补基建", "focus": "轻量 LMS + 企微微课触点", "deliverables": ["轻量 LMS 上线", "一线移动微课推送机制", "学习行为看板"], "milestone": "一线覆盖率 >80%，评估达柯氏2级"},
+    {"phase": "第三阶段（6-12 月）规模化", "focus": "个性化路径 + 内训师 AI 助手", "deliverables": ["按岗位的个性化学习路径", "内训师 AI 备课助手"], "milestone": "自主学习率提升，内训师产能翻倍"}
+  ],
+  "roi": {
+    "assumptions": ["每年约 200 场培训", "每场备课/备题平均省 3 小时", "L&D 综合时薪约 100 元", "一线覆盖提升减少重复送训差旅"],
+    "cost": [
+      {"item": "AI 工具年订阅", "amount": "约 5 万元/年"},
+      {"item": "轻量 LMS 年费", "amount": "约 4 万元/年"},
+      {"item": "内容迁移与搭建（一次性）", "amount": "约 3 万元"}
+    ],
+    "benefit": [
+      {"item": "备课/备题工时节省", "amount": "约 6 万元/年"},
+      {"item": "讲师费与差旅节省", "amount": "约 15 万元/年"},
+      {"item": "新员工上手周期缩短", "amount": "约 8 万元/年"}
+    ],
+    "summary": {
+      "conservative": "年化净收益约 17 万元，ROI 约 130%，回收周期约 8 个月",
+      "optimistic": "年化净收益约 25 万元，ROI 约 190%，回收周期约 5 个月"
+    }
+  }
+}
